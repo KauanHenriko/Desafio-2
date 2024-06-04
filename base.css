@@ -1,0 +1,122 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1600px;
+    display: flex;
+    margin: 0;
+    background-color: aquamarine;
+    p {
+        margin: 2.5%, 2.5%;
+        font-size: 19px;
+    }
+    h1 { 
+        margin: 2.5%, 2.5%;
+        font-size: 25px;
+    }
+    h2 { 
+        margin: 2.5% , 2.5%;
+        font-size: 25px;
+    }
+    h3 { 
+        margin: 2.5%, 2.5%;
+        font-size: 25px;
+    }
+    h4 {
+        display: inline-block;
+        margin: 1% 1%;
+        font-size: 19px;
+    }
+    li {
+        margin: 2.5%, 2.5%;
+        font-size: 20px;
+    }
+    hr {
+        color: black;
+    }
+    }
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 14%;
+    background-color: lightgreen;
+    padding: 50px 20px 0px;
+   
+} 
+.header {
+    background-color: rgb(255, 255, 255);
+    min-height: 100px;
+}
+.content {
+    background-color: lightgray;
+    min-height: flex;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(77, 178, 120);
+    min-height: 60px;
+    padding: 20px;
+}
+
+.texto {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+     
+    grid-template-areas: 
+        " corpo1  corpo2"
+     ;
+     border: 1px solid black;
+     text-align: center;
+     margin: 10px 10px;
+}
+.texto1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+     
+    grid-template-areas: 
+        " corpo3  corpo4";
+     margin: 10px 10px;
+}
+.texto2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+     
+    grid-template-areas: 
+        " corpo5  corpo6";
+    margin: 10px 10px;
+}
+.corpo6 {
+    display: block;
+    padding: 5%;
+}
+#area
+{
+  position:relative;
+  left:37%;
+  top:29%;
+  width:320px;
+  height:270px;
+}
+#area #formulario
+{
+  position:absolute;
+  display:block;
+}
+fieldset
+{
+  width:300px;
+  height:250px;
+}
